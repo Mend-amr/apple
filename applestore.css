@@ -1,0 +1,378 @@
+body {
+  width: screen;
+  height: 100vh;
+  margin: 0;
+}
+#layout {
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  background-color: rgb(237, 184, 184);
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.deed {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  font-size: 12px;
+  background-color: white;
+}
+.donate {
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+.background {
+  /* width: 100%; */
+  height: 75px;
+  background-image: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bichig {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 140px;
+  padding-right: 10px;
+  row-gap: 16px;
+  margin-bottom: 60px;
+}
+.avgai {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 556px;
+  height: 100px;
+  gap: 15px;
+}
+.tng {
+  width: 45px;
+  height: 45px;
+  padding-bottom: 25px;
+}
+.hamt {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.tusdaa {
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  gap: 4px;
+  font-size: 14px;
+}
+.giftbichig {
+  font-size: 44px;
+  font-weight: 600;
+}
+.store {
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(90deg, #0090f7, #ba62fc, #f2416b);
+}
+.magic {
+  color: #6e6e73;
+}
+.accessories {
+  display: flex;
+  padding-inline: 140px;
+  width: 1896px;
+  height: 146px;
+  gap: 12px;
+  margin-bottom: 60px;
+}
+.tag {
+  width: 120px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.zurag {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.title {
+  font-size: 14px;
+  color: black;
+  margin-top: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.page2 {
+  /* width: 100%; */
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 10px;
+  gap: 20px;
+}
+.bichig2 {
+  font-size: 24px;
+  font-weight: 700;
+  gap: 4px;
+  width: 467px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gadar {
+  width: 400px;
+  padding: 30px;
+  display: flex;
+  flex-shrink: 0;
+  cursor: pointer;
+  row-gap: 12px;
+  border-radius: 18px;
+  flex-direction: column;
+  scroll-snap-align: start;
+  background-image: center;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
+}
+.scroll {
+  width: 100%;
+  display: flex;
+  height: 500px;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.name {
+  font-size: 26px;
+  font-weight: 700;
+}
+.name1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+}
+.utga {
+  font-size: 18px;
+}
+.utga1 {
+  font-size: 18px;
+  color: white;
+}
+.price1 {
+  font-size: 18px;
+  color: white;
+}
+.page3 {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-right: 10px;
+  gap: 20px;
+}
+.utgap3 {
+  color: #b64400;
+  font-size: 12px;
+}
+.ner {
+  font-size: 18px;
+  font-weight: 700;
+}
+.une {
+  font-size: 18px;
+  margin-top: 32px;
+}
+.namep {
+  font-size: 26px;
+  width: 197px;
+  height: 66px;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+.scroll2 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.neeg {
+  width: 100%;
+  display: flex;
+  /* height: 500px; */
+  column-gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  flex-direction: row;
+}
+.neg {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 313px;
+  /* height: 500px; */
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
+  flex-shrink: 0;
+}
+.hoyr {
+  width: 230px;
+  height: 230px;
+}
+
+.zyrag {
+  width: 400px;
+  height: 500px;
+  background-image: center;
+  background-size: cover;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 26px;
+  border-radius: 50px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+.span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  gap: 10px;
+  width: 100%;
+  padding-left: 20px;
+}
+.page4 {
+  padding-left: 140px;
+  padding-right: 10px;
+  gap: 20px;
+}
+.none {
+  display: none;
+}
+.bichig3 {
+  height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.zrg {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.zurg {
+  width: 12px;
+  height: 12px;
+  display: flex;
+}
+.page5 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.page6 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.page7 {
+  padding-left: 140px;
+  padding-right: 10px;
+}
+.garchig {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px;
+}
+.jijigtitle {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #6e6e73;
+  padding: 10px;
+}
+.garchig2 {
+  font-size: 17px;
+  font-weight: 400;
+  padding: 10px;
+}
+.garchigg {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 10px;
+}
+.hamtda {
+  width: 313px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: white;
+  border-radius: 50px;
+  padding: ;
+  flex-shrink: 0;
+  padding: 10px;
+}
+.p5-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 4px 8px 12px 0px;
+}
+footer {
+  flex-direction: column;
+  display: flex;
+  padding-left: 140px;
+  padding-right: 10px;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.f2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+}
+.f-1 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.f2-2 {
+  font-size: 14px;
+  background-color: none;
+  border: 1.5px, solid black;
+  border-radius: 99px;
+  padding: 10px;
+}
